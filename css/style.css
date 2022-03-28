@@ -16,7 +16,8 @@ body {
   line-height: 1.6; }
 
 .container {
-  display: grid; }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
 
 .heading-4 {
   font-family: "Josefin Sans", sans-serif;
@@ -60,29 +61,41 @@ body {
     background-color: #B28451; }
 
 .sidebar {
-  background-color: #c69963; }
+  background-color: #c69963;
+  max-width: 8rem; }
 
 .header {
-  background-color: #54483A; }
+  background-color: #54483A;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
   .header__main {
-    background-color: green; }
+    background-color: green;
+    min-height: 80vh;
+    min-width: 65vw; }
   .header__retalors {
-    background-color: red; }
+    background-color: red;
+    min-height: 80vh; }
 
 .gallery {
-  background-color: yellow; }
+  background-color: yellow;
+  min-height: 85vh; }
 
 .features {
-  background-color: chocolate; }
+  background-color: chocolate;
+  min-width: 95vw;
+  min-height: 85vh; }
 
 .story {
-  background-color: lightslategray; }
+  background-color: lightslategray;
+  min-height: 80vh; }
 
 .homes {
-  background-color: gold; }
+  background-color: blue;
+  min-height: 150vh; }
 
 .footer {
-  background-color: lightcoral; }
+  background-color: lightcoral;
+  min-height: 45vh; }
 
 .realtors {
   background-color: crimson; }
