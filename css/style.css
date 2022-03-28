@@ -69,11 +69,17 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr); }
   .header__main {
-    background-color: green;
     min-height: 80vh;
-    min-width: 65vw; }
+    min-width: 65vw;
+    background-color: #54483A;
+    background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), url(../img/hero.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 8rem;
+    padding-top: 4rem; }
   .header__retalors {
-    background-color: red;
+    background-color: #54483A;
+    background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93));
     min-height: 80vh; }
 
 .gallery {
@@ -81,13 +87,39 @@ body {
   min-height: 85vh; }
 
 .features {
-  background-color: chocolate;
   min-width: 95vw;
   min-height: 85vh; }
 
 .story {
-  background-color: lightslategray;
-  min-height: 80vh; }
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+  .story__pictures {
+    background-color: #c69963;
+    background-image: linear-gradient(rgba(198, 153, 99, 0.5), rgba(198, 153, 99, 0.5)), url(../img/back.jpg);
+    background-size: cover;
+    position: relative;
+    align-items: center; }
+  .story__img--1 {
+    max-width: 50rem;
+    margin: 14rem 12rem;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1); }
+  .story__img--2 {
+    width: 40rem;
+    position: absolute;
+    top: 36rem;
+    left: 42rem;
+    z-index: 20;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2); }
+  .story__content {
+    background-color: #f9f7f6;
+    padding: 6rem 8vw;
+    align-content: center;
+    justify-items: start; }
+    .story__content__text {
+      font-size: 1.5rem;
+      font-style: italic;
+      margin-bottom: 4rem; }
 
 .homes {
   background-color: blue;

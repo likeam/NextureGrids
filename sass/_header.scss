@@ -1,19 +1,29 @@
 .header{
     background-color: $color-grey-dark-1;
+
+
     display: grid;
     
     grid-template-columns: repeat(2,1fr);
 
     &__main{
-        background-color: green;
+     
         min-height: 80vh;
         min-width: 65vw;
+        background-color: $color-grey-dark-1;
+       
+        background-image: linear-gradient(rgba($color-secondary, .93), rgba($color-secondary, .93)), url(../img/hero.jpeg);
+        background-size: cover;
+        background-position: center;
+        padding: 8rem;
+        padding-top: 4rem;
 
 
     }
 
     &__retalors{
-        background-color: red;
+        background-color: $color-grey-dark-1;
+        background-image: linear-gradient(rgba($color-secondary, .93), rgba($color-secondary, .93));
         min-height: 80vh;
             
     }
