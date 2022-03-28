@@ -1,0 +1,11 @@
+.header{
+    background-color: $color-grey-dark-1;
+
+    &__main{
+        background-color: green;
+    }
+
+    &__retalors{
+        background-color: red;
+    }
+}
