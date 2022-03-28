@@ -116,10 +116,10 @@ body {
     padding: 6rem 8vw;
     align-content: center;
     justify-items: start; }
-    .story__content__text {
-      font-size: 1.5rem;
-      font-style: italic;
-      margin-bottom: 4rem; }
+  .story__text {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 4rem; }
 
 .homes {
   background-color: blue;
