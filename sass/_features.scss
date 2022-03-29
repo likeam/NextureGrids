@@ -1,6 +1,43 @@
 .features{
     
-    min-width: 95vw;
-    min-height: 85vh;
+    width: 95vw;
+    min-height: 95vh;
+    // margin: 12rem;
+    
+    display: grid;
+    grid-template: repeat(3,  1fr)/repeat(3, 1fr);
+    grid-gap: 3rem;
+    
+}
+
+.feature{
+    width: 25rem;   
+
+    flex: 1 1 25rem;    
+    display: flex;
+
+    &__typing{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem ;
+        font-size: 1.7rem;
+    }
+
+
+    &__icon{
+        fill: $color-primary;
+        width: 8.5rem;
+        height: 8.5rem;       
+        transform: translateY(-1rem);
+    }
+        svg {
+            fill: $color-primary;
+            width: 18.5rem;
+            height: 4.5rem;
+        }    
+
+    &__text{
+        font-size: 1.7rem;         
+    }
     
 }

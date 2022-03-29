@@ -1,4 +1,6 @@
 .header{
+
+    width: 95vw;
     background-color: $color-grey-dark-1;
 
   
@@ -9,11 +11,10 @@
     grid-template-columns: repeat(2,1fr);
 
     &__main{
-     
+        
         min-height: 80vh;
         min-width: 65vw;
-        background-color: $color-grey-dark-1;
-       
+        background-color: $color-grey-dark-1;       
         background-image: linear-gradient(rgba($color-secondary, .93), rgba($color-secondary, .93)), url(../img/hero.jpeg);
         background-size: cover;
         background-position: center;
@@ -67,8 +68,4 @@
                 filter: brightness(70%);
             }
         }
-
-
-    }
-
-   
+}  
