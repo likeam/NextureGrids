@@ -131,6 +131,7 @@ body {
 
 .gallery {
   height: 90vh;
+  width: 95vw;
   display: grid;
   grid-template: repeat(7, 5vw)/repeat(8, 1fr);
   grid-gap: 1.5rem;
@@ -214,7 +215,8 @@ body {
     font-size: 1.7rem; }
 
 .story {
-  min-height: 80vh;
+  height: 80vh;
+  width: 95vw;
   display: grid;
   grid-template-columns: repeat(2, 1fr); }
   .story__pictures {
@@ -304,6 +306,7 @@ body {
     grid-column: 1 / -1; }
 
 .footer {
+  width: 95vw;
   min-height: 45vh;
   background-color: #101d2c;
   padding: 8rem; }
