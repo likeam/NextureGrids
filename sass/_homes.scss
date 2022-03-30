@@ -2,7 +2,7 @@
     width: 95vw;
     height: 160vh;
     margin-left: 8rem;
-    margin-top: 12rem;
+    margin-top: 20rem;
     
     display: grid;
     grid-template: repeat(3, minmax(25rem, 1fr))/repeat(3, 1fr);
@@ -12,7 +12,6 @@
 .home {
     background-color: $color-grey-light-1;
     width: 30rem;
-    margin-top: 8rem;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);

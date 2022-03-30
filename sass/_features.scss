@@ -1,19 +1,20 @@
 .features{
     
     width: 95vw;
-    max-height: 95vh;
-
-    display: grid;
-    grid-template: repeat(3,  1fr)/repeat(3, 1fr);
-    grid-gap: 2rem;    
-}
-
-.feature{
-    width: 25rem; 
+    max-height: 80vh;
     margin-top: 8rem;
     margin-left: 8rem;
 
-    flex: 1 1 25rem;    
+    display: grid;
+    grid-template: repeat(3,  1fr)/repeat(3, 1fr);
+    grid-gap: 4rem;    
+}
+
+.feature{
+    width: 30rem;  
+    
+
+    flex: 1 1 30rem;    
     display: flex;
 
     &__typing{

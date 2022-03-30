@@ -1,13 +1,10 @@
 .header{
 
     width: 95vw;
-    background-color: $color-grey-dark-1;
-
-  
+    padding-bottom: 8rem;
 
 
-    display: grid;
-    
+    display: grid;    
     grid-template-columns: repeat(2,1fr);
 
     &__main{
