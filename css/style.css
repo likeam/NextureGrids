@@ -64,6 +64,25 @@ body {
   background-color: #c69963;
   min-width: 8rem; }
 
+.nav-btn {
+  border: none;
+  border-radius: 0;
+  margin-left: 1.75rem;
+  background-color: #fff;
+  height: 2px;
+  width: 4.5rem;
+  margin-top: 4rem; }
+  .nav-btn::before, .nav-btn::after {
+    background-color: #fff;
+    height: 2px;
+    width: 4.5rem;
+    content: "";
+    display: block; }
+  .nav-btn::before {
+    transform: translateY(-1.5rem); }
+  .nav-btn::after {
+    transform: translateY(1.3rem); }
+
 .header {
   width: 95vw;
   background-color: #54483A;
